@@ -15,6 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding-top:3px;
+    z-index: 3;
 }
 .navbar-logo {
     font-size:17px;
@@ -31,8 +32,9 @@ a{
 /*section 1*/
 .section1{
     background-image: url(./imgi_42_hero_bts_2025__kjxalx8t7ia2_medium.jpg);
-    height: 600px;
-    width:100%;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,26 +45,35 @@ a{
 .comment1{
     height: 160px;
     width: 250px;
+    margin-top: 10px;
     background-color:#007aff;
     border-radius:35px;
     color: white;
     font-size:20px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left:23px;
+    padding-left:20px;
     padding-top: 10px;
 }
 .imguper{
     height:1px;
     font-size:100px;
-    translate: 180px -30px;
+    translate: 170px -30px;
+    position: relative;
+    z-index: 2;
 }
-
+#img1{
+    height:100px;
+}
 .imgneechay{
     height: 2px;
-    transform: rotate(0.1deg);
-    transform-origin:bottom;
+    translate:190px 45px;
 }
-
+#img2{
+    height:90px;
+}
+#img3{
+    translate:-45px -28px;
+}
 .comment2{
     height: 40px;
     width: 250px;
@@ -79,16 +90,22 @@ a{
     height: 200px;
     width: 250px;
     background-color:#007aff;
-    border-radius:30px;
+    border-radius:40px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-     padding-left:23px;
-    padding-top: 10px;
+    padding-left:25px;
+    padding-top:15px;
     font-size: 18px;
+    margin-top: 10px;
+}
+#img3{
+    height: 45px;
+translate: -45px -195px;
 }
 #button1{
     height: 40px;
     width: 80px;
+    margin:10px;
     background-color:white;
     border: 1px solid;
     border-color: #007aff;
@@ -103,16 +120,16 @@ a{
 /*section 2*/
 .section2{
     background-image: url(./imgi_45_hero_iphone_family__fuz5j2v5xx6y_medium.jpg);
-    background-size: cover;
-    height: 700px;
-    width:100%;
+    background-size: contain;
+    background-position: center;
+    height: 90vh;
+    width:100vw;
     margin-top: 10px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items:center;
-    font-size:10px;
-    gap:10px;
+    gap:20px;
 }
 .s2c1{
     margin-top:40px;
@@ -157,4 +174,93 @@ a{
 #button3:hover{
     background-color: #007aff;
     color: white
+}
+.buttons{
+    display: flex;
+    gap:20px;
+}
+#multi{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+     font-size: 1.3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg,
+        #0071E3,   /* Blue */
+        #6E57FF,   /* Indigo */
+        #BF5AF2,   /* Purple */
+        #FF375F,   /* Pinkish Red */
+        #FF5E3A,   /* Orange */
+        #FF9500    /* Deep Orange */
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+/*section3*/
+.section3{
+    background-image: url(./imgi_43_hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+    background-position:center;
+    height: 90vh;
+    width:100vw;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    gap:10px;
+
+}
+.s3c1{
+    margin-top:40px;
+    font-size:26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.s3c2{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.s3s3{
+    display: flex;
+}
+.s3c4{
+    display: flex;
+}
+#button2{
+    height: 40px;
+    width: 130px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 18px;
+}
+#button2:hover{
+    background-color: #1585fd;
+    color: white
+}
+#button4{
+    height: 40px;
+    width: 70px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 18px;
+}
+#button4:hover{
+    background-color: #007aff;
+    color: white
+}
+.buttons{
+    display: flex;
+    gap:20px;
+}
+.s3c5{
+    position:absolute;
+    bottom: 40px;
 }
