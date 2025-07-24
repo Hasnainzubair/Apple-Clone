@@ -16,6 +16,7 @@
     font-size: 12px;
     padding-top:3px;
     z-index: 3;
+    position: fixed;
 }
 .navbar-logo {
     font-size:17px;
@@ -45,7 +46,7 @@ a{
 .comment1{
     height: 160px;
     width: 250px;
-    margin-top: 10px;
+    margin-top: 60px;
     background-color:#007aff;
     border-radius:35px;
     color: white;
@@ -57,7 +58,7 @@ a{
 .imguper{
     height:1px;
     font-size:100px;
-    translate: 170px -30px;
+    translate: 170px -32px;
     position: relative;
     z-index: 2;
 }
@@ -66,7 +67,7 @@ a{
 }
 .imgneechay{
     height: 2px;
-    translate:190px 45px;
+    translate:190px 50px;
 }
 #img2{
     height:90px;
@@ -122,7 +123,7 @@ translate: -45px -195px;
     background-image: url(./imgi_45_hero_iphone_family__fuz5j2v5xx6y_medium.jpg);
     background-size: contain;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     width:100vw;
     margin-top: 10px;
     display: flex;
@@ -198,8 +199,9 @@ translate: -45px -195px;
 /*section3*/
 .section3{
     background-image: url(./imgi_43_hero_macbook_air_avail__fpm99qgohx2e_medium.jpg);
+    background-size: contain;
     background-position:center;
-    height: 90vh;
+    height: 100vh;
     width:100vw;
     margin-top: 10px;
     display: flex;
@@ -228,9 +230,10 @@ translate: -45px -195px;
 .s3c4{
     display: flex;
 }
-#button2{
+#button4{
     height: 40px;
     width: 130px;
+    margin-top: 10px;
     background-color:#007aff;
     border: 1px solid;
     border-color: #007aff;
@@ -238,13 +241,14 @@ translate: -45px -195px;
     color:white;
     font-size: 18px;
 }
-#button2:hover{
+#button4:hover{
     background-color: #1585fd;
     color: white
 }
-#button4{
+#button5{
     height: 40px;
     width: 70px;
+    margin:10px;
     background-color:transparent;
     border: 1px solid;
     border-color: #007aff;
@@ -252,7 +256,7 @@ translate: -45px -195px;
     color:#007aff;
     font-size: 18px;
 }
-#button4:hover{
+#button5:hover{
     background-color: #007aff;
     color: white
 }
@@ -263,4 +267,454 @@ translate: -45px -195px;
 .s3c5{
     position:absolute;
     bottom: 40px;
+}
+/*section 4*/
+.section4{
+    display: flex;
+    gap: 10px;
+}
+.s4c1{
+    background-image: url(./imgi_45_promo_ipad_air__bfbxzvw65c02_medium.jpg);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+
+}
+#imgs4c1{
+    margin-top:70px;
+    height: 40px;
+}
+#p1s4c1{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button6{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button6:hover{
+    background-color: #1585fd;
+    color: white
+}
+#button7{
+    height: 40px;
+    width: 65px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 15px;
+}
+#button7:hover{
+    background-color: #007aff;
+    color: white
+}
+.s4c2{
+    background-image: url(./imgi_46_promo_apple_intelligence_photo_clean_up__gh0fw0wkauai_medium.jpg);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    gap:10px;
+}
+#p1s4c2{
+    font-size:40px;
+    margin-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+#p2s4c2{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#button8{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:white;
+    border: 1px solid;
+    border-color:white;
+    border-radius:35px;
+    color:black;
+    font-size: 14px;
+}
+#button8:hover{
+    background-color:rgba(255, 255, 255, 0.918);
+}
+#button9{
+    height: 40px;
+    width: 110px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color:white;
+    border-radius:35px;
+    color:white;
+    font-size: 15px;
+}
+#button9:hover{
+    background-color:white;
+    color: black
+}
+/*section5*/
+.section5{
+    display: flex;
+    gap:10px;
+}
+.s4c1{
+    background-image: url(./imgi_45_promo_ipad_air__bfbxzvw65c02_medium.jpg);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    position: relative;
+    margin-left:10px;
+    margin-top: 5px;
+
+}
+#imgs4c1{
+    margin-top:70px;
+    height: 40px;
+}
+#p1s4c1{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button6{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button6:hover{
+    background-color: #1585fd;
+    color: white
+}
+#button7{
+    height: 40px;
+    width: 65px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 15px;
+}
+#button7:hover{
+    background-color: #007aff;
+    color: white
+}
+#multi2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+     font-size: 0.9rem;
+      font-weight: 500;
+      background: linear-gradient(90deg,
+        #0071E3,   /* Blue */
+        #6E57FF,   /* Indigo */
+        #BF5AF2,   /* Purple */
+        #FF375F,   /* Pinkish Red */
+        #FF5E3A,   /* Orange */
+        #FF9500    /* Deep Orange */
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 25px;
+}
+.s4c2{
+    background-image: url(./imgi_46_promo_apple_intelligence_photo_clean_up__gh0fw0wkauai_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    margin-right:10px;
+    margin-top: 5px;
+}
+#p1s4c2{
+    font-size:40px;
+    margin-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+#p2s4c2{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#button8{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:white;
+    border: 1px solid;
+    border-color:white;
+    border-radius:35px;
+    color:black;
+    font-size: 14px;
+}
+#button8:hover{
+    background-color:rgba(255, 255, 255, 0.918);
+}
+#button9{
+    height: 40px;
+    width: 110px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color:white;
+    border-radius:35px;
+    color:white;
+    font-size: 15px;
+}
+#button9:hover{
+    background-color:white;
+    color: black
+}
+/*section5*/
+.section5{
+    display: flex;
+    gap:10px;
+}
+.s5c1{
+    background-image: url(./imgi_48_promo_apple_watch_series_10_avail_lte__c70y29goir42_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 5px;
+    margin-left:10px;
+
+}
+#imgs5c1{
+    margin-top:70px;
+    height: 60px;
+
+}
+#p1s5c1{
+    margin-top: 10px;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button6{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button6:hover{
+    background-color: #1585fd;
+    color: white
+}
+#button7{
+    height: 40px;
+    width: 65px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 15px;
+}
+#button7:hover{
+    background-color: #007aff;
+    color: white
+}
+.s5c2{
+    background-image: url(./imgi_49_promo_airpods_pro_2_avail__vkitqi3okwie_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    margin-right:10px;
+    margin-top: 5px;
+}
+#p1s5c2{
+    font-size:40px;
+    margin-top: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+#p2s5c2{
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#button10{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color:#007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button10:hover{
+    background-color:#0577f1
+}
+#button11{
+    height: 40px;
+    width: 70px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color:#007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 15px;
+}
+#button11:hover{
+    background-color:#007aff;
+    color:white;
+}
+/*section6*/
+.section6{
+    display: flex;
+    gap:10px;
+}
+.s6c1{
+    background-image: url(./imgi_51_promo_iphone_tradein__bugw15ka691e_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    margin-left:10px;
+
+}
+#imgs6c1{
+    margin-top:70px;
+    scale: 1.3;
+
+}
+#p1s6c1{
+    margin-top: 20px;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#button12{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color: #007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button12:hover{
+    background-color: #1585fd;
+    color: white
+}
+
+.s6c2{
+    background-image: url(./imgi_53_promo_apple_card__5cm7draujpey_medium.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width:50vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:center;
+    margin-right:10px;
+}
+#imgs6c2{
+    margin-top:70px;
+    scale:1.3;
+}
+#p1s6c2{
+    margin-top:20px;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+#button14{
+    height: 35px;
+    width: 100px;
+    margin-top: 10px;
+    background-color:#007aff;
+    border: 1px solid;
+    border-color:#007aff;
+    border-radius:35px;
+    color:white;
+    font-size: 14px;
+}
+#button14:hover{
+    background-color:#0577f1
+}
+#button15{
+    height: 35px;
+    width: 100px;
+    margin:10px;
+    background-color:transparent;
+    border: 1px solid;
+    border-color:#007aff;
+    border-radius:35px;
+    color:#007aff;
+    font-size: 15px;
+}
+#button15:hover{
+    background-color:#007aff;
+    color:white;
 }
